@@ -29,10 +29,16 @@ a:hover {
 }
 
 .container {
-    color: #FFFFFF;
+    color: #FFF;
     text-align: center;
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+@media (min-width: 767px)  {
+    .col-md-6, .col-md-4 {
+        flex: 0 0 0 50%;
+        max-width: 100%;
+    }
+}
